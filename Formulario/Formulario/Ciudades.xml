@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+<Ciudades>
+  <ciudad id="1" name="Neiva"></ciudad>
+  <ciudad id="2" name="Buenos Aires"></ciudad>
+  <ciudad id="3" name="New York"></ciudad>
+</Ciudades>
+-->
+
+<pais>
+  <ciudad>
+    <nombreCiudad>Buenos Aires</nombreCiudad>
+    <idNombre>1</idNombre> <!--DataValueField-->
+  </ciudad>
+<ciudad>
+    <nombreCiudad>Neiva</nombreCiudad>
+    <idNombre>2</idNombre>
+  </ciudad>
+<ciudad>
+    <nombreCiudad>New York</nombreCiudad>
+    <idNombre>3</idNombre>
+  </ciudad>
+</pais>
