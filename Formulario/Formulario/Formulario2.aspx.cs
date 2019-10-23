@@ -48,11 +48,11 @@ namespace Formulario
             Session["combo"] = ddlpersona.SelectedItem.ToString();
             if (rbNatural.Checked==true)
             {
-                Session["persona"] = "Persona Natural"; 
+                Session["persona"] = " Natural"; 
             }
             if (rbJuridico.Checked==true)
             {
-                Session["persona"] = "Persona Juridica";
+                Session["persona"] = " Juridica";
             }
             Response.Redirect("Formulario1.aspx");
         }

@@ -13,12 +13,19 @@ namespace Formulario
         {
             lblDocumento.Text = Session["documento"].ToString();
             lblNombre.Text = Session["nombre"].ToString();
-            lblApellidos.Text = Session["nombre"].ToString();
-            lblDireccion.Text = Session["nombre"].ToString();
-            lblTelefono.Text = Session["nombre"].ToString();
-            lblCorreo.Text = Session["nombre"].ToString();
-            lblNacimiento.Text = Session["nombre"].ToString();
+            lblApellidos.Text = Session["apellidos"].ToString();
+            lblDireccion.Text = Session["direccion"].ToString();
+            lblTelefono.Text = Session["telefono"].ToString();
+            lblCorreo.Text = Session["correo"].ToString();
+            lblNacimiento.Text = Session["nacimiento"].ToString();
+            lblPersona.Text = Session["persona"].ToString();
+            lblCiudades.Text = Session["combo"].ToString();
 
+        }
+
+        protected void btnAtras_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Formulario2.aspx");
         }
     }
 }
