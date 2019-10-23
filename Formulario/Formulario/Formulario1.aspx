@@ -17,6 +17,8 @@
             <p>Teléfono: <asp:Label ID="lblTelefono" runat="server"></asp:Label></p><br />
             <p>Correo: <asp:Label ID="lblCorreo" runat="server"></asp:Label></p><br />
             <p>Fecha Nacimiento: <asp:Label ID="lblNacimiento" runat="server"></asp:Label></p><br />
+            <p>Persona<asp:Label ID="lblPersona" runat="server"></asp:Label></p>
+            <p>Ciudad de Origen:<asp:Label ID="lblCiudades" runat="server"></asp:Label></p>
         </div>
     </form>
 </body>
